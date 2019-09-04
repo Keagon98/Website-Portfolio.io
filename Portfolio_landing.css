@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -111,6 +112,14 @@ body {
         margin: 2px;
         padding: 0;
         
+    }
+
+    .proList h2 {
+        color: #e9e2e2;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 10px;
+        display: inline-block;
     }
 
     .projectsBtn h3:hover {
@@ -419,6 +428,14 @@ from {
 
 }
 
+.proList h2 {
+    color: #f7d5b3;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
 
 .projectsBtn {
     background-color: transparent;
