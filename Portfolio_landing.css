@@ -52,11 +52,13 @@ body {
   .quote p {
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     text-shadow: 5px 5px 13px #9263ff;
     padding-top: 0px;
     margin-top: 50px;
+    margin-right: 30px;
     display: inline-block;
+    text-transform: uppercase;
   }
 
   .quote p {
@@ -255,12 +257,28 @@ body {
     font-size: 15px;
   }
 
+  .extMedia #extImg {
+    width: 200px;
+    height: 105px;
+    float: left;
+    border: 2px #414044 solid; 
+  }
+  
+  .extMedia video {
+    width: 200px;
+    height: 105px;
+    float: left;
+    border: 2px #414044 solid; 
+  }
+
   #header-mo {
     font-size: 15px;
   }
 
-  .modal-body {
-    padding: 1px 8px;
+  .modal-body #modal-body-p{
+    padding: 5px;
+    display: inline;
+    font-size: 9px;
   }
 
   .modal-footer {
@@ -423,10 +441,12 @@ body {
 .quote {
   color: #fffefe;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   text-shadow: 5px 5px 13px #9263ff;
   padding-top: 0px;
   margin-top: 100px;
+  margin-right: 70px;
+  text-transform: uppercase;
 }
 
 .quote {
@@ -1233,8 +1253,27 @@ body {
   font-family: "Lexend Peta", sans-serif;
 }
 
-.modal-body {
-  padding: 2px 16px;
+
+#extImg {
+  width: 300px;
+  height: 210px;
+  float: left;
+  border: 1px #414044 solid; 
+}
+
+video {
+  width: 300px;
+  height: 210px;
+  float: left;
+  border: 1px #414044 solid; 
+}
+
+.modal-body p{
+  padding: 0;
+  margin: 0;
+  display: inline;
+  text-align: justify;
+  font-size: 15px;
 }
 
 .modal-footer {
