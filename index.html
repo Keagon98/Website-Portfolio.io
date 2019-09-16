@@ -138,16 +138,17 @@
 
       <div class="chatApp">
         <h2>
-          Chat App
+          Live Chat Application
+          <i class="far fa-comments"></i>
         </h2>
         <div class="proButton">
-          <a href=""
-            ><button class="demoBtn" type="submit">
+          <a href="https://connect-app-js.herokuapp.com/" target="_blank">
+            <button class="demoBtn" type="submit">
               <i></i>
               <h3>Demo</h3>
             </button></a
           >
-          <a href=""
+          <a href="https://github.com/Keagon98/Live-Chat-Application"
             ><button class="codeBtn" type="submit">
               <i></i>
               <h3>Code</h3>
@@ -197,7 +198,7 @@
           </div>
           <div class="extMedia">
           <img id="extImg" src="./screenshot-launcher.jpg"/>
-          <video width="400" controls>
+          <video id="extVid" controls>
             <source src="extVideo.mp4" type="video/mp4">
           </video>
     
@@ -205,17 +206,17 @@
           <div class="modal-body">
             <h3>Short summary of this google chrome extension</h3>
             <p id="modal-body-p">
-              This is a simple Google chrome extension that I've built that acts as a launcher to my social media.
+             || This is a simple Google chrome extension that I've built that acts as a launcher to my social media.
             </p>
             <h3>Challenges/Learning experiences</h3>
-            <p id="modal-body-p">
-              I'm not a registered developer, so I'm unable to publish my extension on the web store unless I pay. But will do so in the future.
-            </p>
+           <ul>
+             <li>|| I'm not a registered developer, so I'm unable to publish my extension on the web store unless I pay. But will do so in the future.</li>
+          </ul>
           </div>
           <div class="modal-footer">
-            <h3>Tools used</h3>
-            <i class="fab fa-html5 fa-3x"><h3 style="font-size: 10px;">HTML5</h3></i>
-            <i class="fab fa-css3 fa-3x"><h3 style="font-size: 10px;">CSS3</h3></i>
+            <h3 id="tools">Tools used</h3>
+            <i class="fab fa-html5 fa-2x"><h4>HTML5</h4></i>
+            <i class="fab fa-css3 fa-2x"><h4>CSS3</h4></i>
           </div>
         </div>
         </div>
@@ -251,7 +252,7 @@
             </p>
           </div>
           <div class="modal-footer">
-            <h3>Tools used</h3>
+            <h3 id="tools">Tools used</h3>
           </div>
         </div>
       </div>
@@ -262,35 +263,37 @@
         <div class="modal-content">
           <div class="modal-header">
             <span class="close">×</span>
-            <h2 id="header-mo">Live chat app</h2>
+            <h2 id="header-mo">Live Chat Application</h2>
           </div>
           <div class="modal-body">
-            <h3>Short summary of this chat app</h3>
-            <p>
-              Non labore aliqua reprehenderit consequat ipsum dolore laboris et
-              incididunt. Exercitation cupidatat in laboris ea cupidatat
-              cupidatat cillum aute cupidatat. Dolore exercitation nulla elit
-              labore sit irure labore. Culpa id velit cillum laboris non
-              laboris. Magna ut enim veniam irure dolore tempor nisi sint
-              cupidatat nulla aliquip irure cillum. Ea sit dolore quis commodo.
-            </p>
-            <h3>Challenges/Learning experiences</h3>
-            <p>
-              Qui ea fugiat id Lorem cupidatat cupidatat sit fugiat quis.
-              Pariatur ut adipisicing exercitation aliqua dolor tempor amet
-              exercitation veniam. Deserunt ullamco qui ad eu aliqua sint ut
-              voluptate est in exercitation culpa. Exercitation proident
-              pariatur sint aute incididunt ad pariatur magna. Culpa commodo eu
-              occaecat sint amet exercitation incididunt sunt laborum commodo
-              incididunt elit. Id occaecat excepteur ea est do. Ipsum sint non
-              cillum deserunt adipisicing Lorem adipisicing velit deserunt et
-              labore mollit est.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <h3>Tools used</h3>
-          </div>
+            <div class="extMedia">
+              <video id="chatVid" controls>
+                <source src="chatVideo.mp4" type="video/mp4">
+              </video>
+        
+            </div>
+              <div class="modal-body">
+                <h3>Short summary of this Live Chat Application</h3>
+                <p id="modal-body-p">
+                 || This is a basic Real-time chat application that I've built using Socket.io.-Which enables real-time, bidirectional and event-based communication.
+                  It works on every platform, browser or device, focusing equally on reliability and speed.It uses only a few lines of code to create this chat application(Which is amazing!).
+                </p>
+                <h3>Challenges/Learning experiences</h3>
+                <ul>
+                  <li>|| I've never worked with socket.io before, it took some time to figure out(but I'll definitely use it more).</li>
+                  <li>|| Getting the users name to display.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <h3 id="tools">Tools used</h3>
+                <i class="fab fa-html5 fa-2x"><h4>HTML5</h4></i>
+                <i class="fab fa-css3 fa-2x"><h4>CSS3</h4></i>
+                <i class="fab fa-js-square fa-2x"><h4>JavaScript</h4></i>
+                <i class="fab fa-node fa-2x"><h4>Node.js</h4></i>
+                <i class="fab fa-node fa-2x"><h4>Socket.io</h4></i>
+              </div>
         </div>
+      </div>
       </div>
 
       <!-- The Modal -->
@@ -324,15 +327,13 @@
             </p>
           </div>
           <div class="modal-footer">
-            <h3>Tools used</h3>
+            <h3 id="tools">Tools used</h3>
           </div>
         </div>
       </div>
 
       <div class="proBtn" id="proBtn">
-        <a href="#Home"
-          ><button class="projectsBtn"><h3>To the top</h3></button></a
-        >
+        <a href="#Home"><button class="projectsBtn"><h3>To the top</h3></button></a>
       </div>
     </div>
 

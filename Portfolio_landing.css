@@ -288,7 +288,7 @@ body {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -296,8 +296,7 @@ body {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-    font-family: "Gayathri", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .modal h3 {
@@ -367,27 +366,61 @@ body {
   }
 
   .extMedia #extImg {
-    width: 200px;
-    height: 105px;
-    float: left;
-    border: 2px #414044 solid; 
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 125px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+    
+  }
+
+  .extMedia #extImg:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
   }
   
-  .extMedia video {
+  .extMedia #extVid {
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 125px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+  }
+
+  .extMedia #extVid:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .extMedia #chatVid {
     width: 200px;
     height: 105px;
-    float: left;
-    border: 2px #414044 solid; 
+    margin: 2px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+  }
+
+  .extMedia #chatVid:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
   }
 
   #header-mo {
     font-size: 15px;
   }
 
-  .modal-body #modal-body-p{
-    padding: 5px;
-    display: inline;
-    font-size: 9px;
+  .modal-body h3 {
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  .modal-body #modal-body-p {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 10px;
   }
 
   .modal-footer {
@@ -396,6 +429,10 @@ body {
     padding: 1px 8px;
     background-color: #393e39;
     color: white;
+  }
+
+  #tools {
+    display: block;
   }
 
   .proBtn {
@@ -858,13 +895,13 @@ body {
   border: 1px solid #fff;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   text-align: center;
   margin: 0;
-  padding: 5px;
+  padding: 3px;
   cursor: pointer;
 }
 
@@ -874,13 +911,13 @@ body {
   border: 1px solid #fff;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   text-align: center;
-  margin: 2px;
-  padding: 5px 10px;
+  margin: 0;
+  padding: 3px;
   cursor: pointer;
 }
 
@@ -925,12 +962,6 @@ body {
   border-radius: 10%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-#extImg {
-  height: 200px;
-  float: left;
-  display: block;
 }
 
 .goExt h2 {
@@ -1108,6 +1139,7 @@ body {
     animation-timing-function: ease-out;
   }
 }
+
 
 .chatApp h2 {
   color: #312e2e;
@@ -1290,15 +1322,18 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 25px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  overflow: auto; 
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  font-family: "Gayathri", sans-serif;
+}
+
+#header-mo {
+  font-size: 15px;
 }
 
 /* Modal Content */
@@ -1361,35 +1396,92 @@ body {
   font-family: "Lexend Peta", sans-serif;
 }
 
+.extMedia {
+  padding: 10px;
+  background: #535252;
+  margin: 0;
 
-#extImg {
-  width: 300px;
-  height: 210px;
-  float: left;
-  border: 1px #414044 solid; 
 }
 
-video {
-  width: 300px;
-  height: 210px;
-  float: left;
-  border: 1px #414044 solid; 
+#extImg {
+  height: 100px;
+  width: 250px;
+  margin: 2px;
+  margin-left: 325px;
+  float: center;
+  display: block;
+  border: 2px #312e2e solid;
+  border-radius: 10px;
+}
+
+ #extImg:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+    0 9px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+#extVid {
+  height: 100px;
+  width: 250px;
+  margin: 2px;
+  margin-left: 325px;
+  float: center;
+  display: block;
+  border: 2px #312e2e solid;
+  border-radius: 10px;
+}
+
+#extVid:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+    0 9px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+#chatVid {
+  height: 100px;
+  width: 400px;
+  margin: 2px;
+  float: center;
+  border: 2px #312e2e solid;
+  border-radius: 10px;
+}
+
+ #chatVid:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+    0 9px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-body h3 {
+  display: block;
+  font-size: 15px;
 }
 
 .modal-body p{
   padding: 0;
   margin: 0;
-  display: inline;
-  text-align: justify;
+  display: block;
   font-size: 15px;
+}
+
+.modal-body ul {
+  list-style: none;
+  
 }
 
 .modal-footer {
   text-transform: uppercase;
   font-family: "Lexend Peta", sans-serif;
-  padding: 2px 16px;
+  padding: 0;
   background-color: #393e39;
   color: white;
+}
+
+.modal-footer h4 {
+  font-size: 10px;
+  display: block;
+}
+
+#tools {
+  display: block;
+  font-size: 10px;
 }
 
 .projectsBtn {
