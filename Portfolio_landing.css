@@ -1404,10 +1404,10 @@ body {
 }
 
 #extImg {
-  height: 100px;
+  height: 110px;
   width: 250px;
-  margin: 2px;
-  margin-left: 325px;
+  margin: 0;
+  margin-left: 350px;
   float: center;
   display: block;
   border: 2px #312e2e solid;
@@ -1420,10 +1420,10 @@ body {
 }
 
 #extVid {
-  height: 100px;
+  height: 110px;
   width: 250px;
-  margin: 2px;
-  margin-left: 325px;
+  margin: 0;
+  margin-left: 350px;
   float: center;
   display: block;
   border: 2px #312e2e solid;
