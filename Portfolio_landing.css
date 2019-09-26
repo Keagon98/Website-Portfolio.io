@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Gayathri&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -161,11 +162,12 @@ body {
 
   .quote p {
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Mansalva', cursive;
     font-size: 20px;
     text-shadow: 5px 5px 13px #9263ff;
     padding-top: 0px;
     margin-top: 50px;
+    margin-right: 25px;
     display: inline-block;
     text-transform: uppercase;
   }
@@ -586,8 +588,8 @@ body {
 
 .quote {
   color: #fffefe;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-family: 'Mansalva', cursive;
+  font-size: 55px;
   text-shadow: 5px 5px 13px #9263ff;
   padding-top: 0px;
   margin-top: 100px;
@@ -1534,47 +1536,6 @@ body {
   padding: 10px 10px;
 }
 
-#number {
-  color: #fff;
-  text-align: center;
-  padding: 0;
-  margin: 2px 20px;
-  font-family: "Lexend Peta", sans-serif;
-}
-
-#number:hover {
-  -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
-  animation: pulsate-fwd 0.5s ease-in-out infinite both;
-}
-
-@-webkit-keyframes pulsate-fwd {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes pulsate-fwd {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
 
 .button_4 {
   color: #ffffff;
