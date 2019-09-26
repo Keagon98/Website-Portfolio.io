@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Gayathri&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -42,9 +42,9 @@ body {
 
 @media only screen and (max-width: 420px) {
 
-   .middle .quote p  {
+   .middle .mainhead h1  {
     color: #fff;
-    font-family: 'Mansalva', cursive;
+    font-family: 'Notable', sans-serif;
     font-size: 15px;
     text-shadow: 5px 5px 13px #9263ff;
     padding-top: 0;
@@ -160,10 +160,10 @@ body {
     padding: 0;
   }
 
-  .quote p {
+  .mainhead h1 {
     color: #fff;
-    font-family: 'Mansalva', cursive;
-    font-size: 20px;
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
     text-shadow: 5px 5px 13px #9263ff;
     padding-top: 0px;
     margin-top: 50px;
@@ -172,7 +172,7 @@ body {
     text-transform: uppercase;
   }
 
-  .quote p {
+  .mainhead h1 {
     animation: tracking-in-contract-bck-top 1s
       cubic-bezier(0.215, 0.61, 0.355, 1) both;
   }
@@ -586,17 +586,17 @@ body {
   padding-top: 100px;
 }
 
-.quote {
+.mainhead{
   color: #fffefe;
-  font-family: 'Mansalva', cursive;
-  font-size: 55px;
+  font-family: 'Notable', sans-serif;
+  font-size: 40px;
   text-shadow: 5px 5px 13px #9263ff;
   padding-top: 0px;
   margin-top: 100px;
   text-transform: uppercase;
 }
 
-.quote {
+.mainhead {
   animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1)
     both;
 }
