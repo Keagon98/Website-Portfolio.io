@@ -1397,7 +1397,7 @@ body {
 }
 
 .extMedia {
-  padding: 10px;
+  padding: 0;
   background: #535252;
   margin: 0;
 
@@ -1405,9 +1405,9 @@ body {
 
 #extImg {
   height: 110px;
-  width: 250px;
+  width: 200px;
   margin: 0;
-  margin-left: 350px;
+  margin-left: 400px;
   float: center;
   display: block;
   border: 2px #312e2e solid;
@@ -1421,9 +1421,9 @@ body {
 
 #extVid {
   height: 110px;
-  width: 250px;
+  width: 200px;
   margin: 0;
-  margin-left: 350px;
+  margin-left: 400px;
   float: center;
   display: block;
   border: 2px #312e2e solid;
@@ -1437,12 +1437,14 @@ body {
 
 #chatVid {
   height: 100px;
-  width: 400px;
-  margin: 2px;
+  width: 150px;
+  margin: 10;
+  padding: 0;
   float: center;
   border: 2px #312e2e solid;
   border-radius: 10px;
 }
+
 
  #chatVid:hover {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
@@ -1452,6 +1454,7 @@ body {
 .modal-body h3 {
   display: block;
   font-size: 15px;
+  text-transform: uppercase;
 }
 
 .modal-body p{
