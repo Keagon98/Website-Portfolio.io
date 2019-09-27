@@ -474,6 +474,28 @@ body {
     padding: 0;
   }
 
+  .modal-body ul {
+    list-style: circle;
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 9px;
+  }
+
+  .modal-body #modal-body-p {
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 9px;
+  }
+
+  .icons .button_7 {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: block;
+    
+  }
+
   .conBtn a {
     margin: 900px 0 0 0;
   }
@@ -1462,12 +1484,14 @@ body {
 .modal-body p{
   padding: 0;
   margin: 0;
+  font-family: "Lexend Peta", sans-serif;
   display: block;
   font-size: 15px;
 }
 
 .modal-body ul {
-  list-style: none;
+  list-style: circle;
+  font-family: "Lexend Peta", sans-serif;
   
 }
 
@@ -1567,6 +1591,23 @@ body {
   display: block;
 }
 
+.button_7 {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+  margin: 2px 20px;
+  cursor: pointer;
+  display: block;
+  
+}
+
+.button_7 h3 {
+  font-size: 10px;
+  font-family: "Lexend Peta", sans-serif;
+  text-transform: uppercase;
+}
+
 .button_4:hover {
   border-radius: 100%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
@@ -1585,9 +1626,16 @@ body {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.button_7:hover {
+  border-radius: 10%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 .conBtn {
   text-align: center;
-  margin: 80px;
+  margin: 0;
 }
 
 .connectBtn {
