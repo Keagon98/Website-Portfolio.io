@@ -43,7 +43,7 @@ body {
 @media only screen and (max-width: 420px) {
 
    .middle .mainhead h1  {
-    color: #fff;
+    color: #a09c9c;
     font-family: 'Notable', sans-serif;
     font-size: 15px;
     text-shadow: 5px 5px 13px #9263ff;
@@ -161,7 +161,7 @@ body {
   }
 
   .mainhead h1 {
-    color: #fff;
+    color: #a09c9c;
     font-family: 'Notable', sans-serif;
     font-size: 30px;
     text-shadow: 5px 5px 13px #9263ff;
@@ -609,7 +609,7 @@ body {
 }
 
 .mainhead{
-  color: #fffefe;
+  color: #a09c9c;
   font-family: 'Notable', sans-serif;
   font-size: 40px;
   text-shadow: 5px 5px 13px #9263ff;
@@ -640,6 +640,32 @@ body {
 
 .floatBtn {
   padding-top: 20px;
+}
+
+
+.iconbtn::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: -3;
+}
+
+.iconbtn:hover{
+  animation: ro 1s linear infinite;
+}
+
+@keyframes ro {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 .button_1 {
