@@ -552,7 +552,6 @@ body {
 
 /*Landing Page CSS*/
 .landing {
-  /*background-image: url("./image/moon.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -790,7 +789,6 @@ body {
 
 /*About Page CSS*/
 .about {
-  /*background-image: url("./image/palm.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -1569,7 +1567,6 @@ body {
 
 /*Contact CSS*/
 .connect {
-  /*background-image: url("./image/iphone.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
