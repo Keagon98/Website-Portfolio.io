@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 /*Scrollbar (Custom)*/
@@ -40,52 +40,76 @@ body {
   background: #bdb9b9;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
 
    .middle .mainhead h1  {
-    color: #a09c9c;
+    color: #c5c2c2;
     font-family: 'Notable', sans-serif;
-    font-size: 15px;
-    text-shadow: 5px 5px 13px #9263ff;
+    font-size: 35px;
+    text-shadow: 5px 5px 13px #0f0f0f;
     padding-top: 0;
-    margin-top: 125px;
+    text-align: center;
+    margin-left: 30px;
     display: inline-block;
     text-transform: uppercase;
+  }
+
+  .iconbtn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -3;
+  }
+  
+  .iconbtn:hover{
+    animation: ro 1s linear infinite;
+  }
+  
+  @keyframes ro {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
   }
 
   
   .floatBtn .button_1 {
-    border: 1px solid #fff;
-    border-radius: 5%;
-    color: #ffffff;
-    background-color: transparent;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 8px;
-    font-family: "Lexend Peta", sans-serif;
-    margin: 40px 10px;
-    cursor: pointer;
-    transition-property: border-radius;
-    transition-duration: 0.9s;
-    transition-timing-function: linear;
+  border: none;
+  color: #615c5c;
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 5px;
+  font-family: "Lexend Peta", sans-serif;
+  margin: 2px 20px;
+  cursor: pointer;
+  transition-property: border-radius;
+  transition-duration: 0.9s;
+  transition-timing-function: linear;
   }
   
   .floatBtn .button_2 {
-    border: 1px solid white;
-    border-radius: 5%;
-    color: white;
+    border: none;
+    color: #615c5c;
     background-color: transparent;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    font-size: 8px;
+    font-size: 5px;
     font-family: "Lexend Peta", sans-serif;
-    margin: 1px 10px;
+    margin: 2px 20px;
     cursor: pointer;
     transition-property: border-radius;
     transition-duration: 0.9s;
@@ -93,18 +117,17 @@ body {
   }
   
   .floatBtn .button_3 {
-    border: 1px solid white;
-    border-radius: 5%;
-    color: white;
+    border: none;
+    color: #615c5c;
     background-color: transparent;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    font-size: 8px;
+    font-size: 5px;
     font-family: "Lexend Peta", sans-serif;
-    margin: 1px 10px;
+    margin: 2px 20px;
     cursor: pointer;
     transition-property: border-radius;
     transition-duration: 0.9s;
@@ -116,9 +139,9 @@ body {
     text-align: center;
     display: block;
     font-family: "Permanent Marker", cursive;
-    font-size: 10px;
-    padding: 10px 20px;
-    margin: 10px 20px;
+    font-size: 2px;
+    padding: 1px 5px;
+    margin: 1px 5px;
   }
 
   #proBtn  {
@@ -161,10 +184,10 @@ body {
   }
 
   .mainhead h1 {
-    color: #a09c9c;
+    color: #c5c2c2;
     font-family: 'Notable', sans-serif;
-    font-size: 30px;
-    text-shadow: 5px 5px 13px #9263ff;
+    font-size: 45px;
+    text-shadow: 5px 5px 13px #0f0f0f;
     padding-top: 0px;
     margin-top: 50px;
     margin-right: 25px;
@@ -200,32 +223,34 @@ body {
     font-size: 15px;
   }
 
-  .mySelf p {
+  .about #aboutHead {
+    font-size: 20px;
+    text-shadow: 3px 3px 10px #0f0f0f;
+  }
+
+  .mySelf #aboutMe {
+    color: #c5c2c2;
+    text-shadow: 3px 3px 10px #0f0f0f;
     text-align: center;
     display: inline-block;
     font-family: "Permanent Marker", cursive;
-    font-size: 20px;
-    padding: 40px 20px;
-    margin: 20px 40px;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
   }
 
   .langIcons i {
-    color: #fff;
+    color: #706d6d;
     margin: 0;
-    padding: 15px;
-    letter-spacing: 20px;
-    font-size: 20px;
-    display: inline-block;
+    padding: 1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: inline;
   }
 
-  .mySelf p {
-    color: #fff;
-    text-align: center;
-    display: block;
-    font-family: "Permanent Marker", cursive;
-    font-size: 15px;
-    padding: 10px 20px;
-    margin: 20px 40px;
+  .projects #projectsHead {
+    font-size: 20px;
+    text-shadow: 3px 3px 10px #0f0f0f;
   }
 
   .connect i {
@@ -240,27 +265,23 @@ body {
     margin: 500px;
   }
 
-  .aboutBtn h3 {
+  .aboutBtn i {
     background-color: transparent;
-    color: #fff;
-    border-radius: 10%;
-    font-family: "Lexend Peta", sans-serif;
+    color: #eefa04;
+    border: none;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
     text-align: center;
-    font-size: 8px;
-    margin: 2px;
     padding: 0;
+    margin: 0;
+    font-size: 30px;
   }
 
-  .aboutBtn h3:hover {
-    background: #fcfafa;
+  .aboutBtn i:hover {
     color: #080808;
     cursor: pointer;
-    border-radius: 10%;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    
   }
 
   .modal-header #extImg {
@@ -270,19 +291,19 @@ body {
   }
 
   .projects .goExt h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .projects .onStore h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .projects .chatApp h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .projects .pyApp h2 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* The Modal (background) */
@@ -440,27 +461,23 @@ body {
   .proBtn {
     margin: 20px;
   }
-  .projectsBtn h3 {
+  .proBtn i {
     background-color: transparent;
-    color: #fff;
-    border-radius: 10%;
-    font-family: "Lexend Peta", sans-serif;
+    color: #eefa04;
+    border: none;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
     text-align: center;
-    font-size: 8px;
-    margin: 2px;
     padding: 0;
+    margin: 0;
+   font-size: 30px;
   }
 
-  .projectsBtn h3:hover {
-    background: #fcfafa;
+  .proBtn i:hover {
     color: #080808;
     cursor: pointer;
-    border-radius: 10%;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    
   }
 
   .projectsHead h1 {
@@ -484,59 +501,69 @@ body {
     font-family: "Lexend Peta", sans-serif;
     font-size: 9px;
   }
+  
 
   .icons .button_7 {
-    color: #ffffff;
     background-color: transparent;
     border: none;
     padding: 20px;
     margin: 0 10px;
     cursor: pointer;
     display: block;
-    
   }
+
+.button_4 .iconbtn {
+  color: #615c5c;
+}
+
+.button_5 .iconbtn {
+  color: #615c5c;
+}
+
+.button_6 .iconbtn {
+  color: #615c5c;
+}
+
+.button_7 .iconbtn {
+  color: #615c5c;
+}
 
   .conBtn a {
     margin: 900px 0 0 0;
   }
 
-  .connectBtn h3 {
+  .connectBtn i {
     background-color: transparent;
-    color: #fff;
-    border-radius: 10%;
-    font-family: "Lexend Peta", sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
-    text-align: center;
-    font-size: 8px;
-    margin: 2px;
-    padding: 0;
+  color: #eefa04;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
   }
 
-  .connectBtn h3:hover {
-    background: #fcfafa;
-    color: #080808;
-    cursor: pointer;
-    border-radius: 10%;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  .connectBtn i:hover {
+    color: #032004;
+  cursor: pointer;
   }
 }
 
 /*Landing Page CSS*/
 .landing {
-  background-image: url("./image/moon.jpg");
+  /*background-image: url("./image/moon.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
+  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
 }
 
 .myName {
-  color: #fcfafa;
+  color: #615c5c;
   letter-spacing: 5px;
   text-align: left;
   text-transform: uppercase;
@@ -591,16 +618,6 @@ body {
     transform: translateY(0);
     animation-timing-function: ease-out;
   }
-
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #da8df0, 0 0 40px #da8df0,
-      0 0 50px #da8df0, 0 0 60px #da8df0, 0 0 70px #da8df0, 0 0 80px #da8df0;
-  }
 }
 
 .middle {
@@ -609,10 +626,10 @@ body {
 }
 
 .mainhead{
-  color: #a09c9c;
+  color: #c5c2c2;
   font-family: 'Notable', sans-serif;
   font-size: 40px;
-  text-shadow: 5px 5px 13px #9263ff;
+  text-shadow: 5px 5px 13px #0f0f0f;
   padding-top: 0px;
   margin-top: 100px;
   text-transform: uppercase;
@@ -669,9 +686,9 @@ body {
 }
 
 .button_1 {
-  border: 1px solid #fff;
+  border: none ;
   border-radius: 5%;
-  color: #ffffff;
+  color: #615c5c;
   background-color: transparent;
   padding: 20px;
   text-align: center;
@@ -682,15 +699,12 @@ body {
   font-family: "Lexend Peta", sans-serif;
   margin: 2px 20px;
   cursor: pointer;
-  transition-property: border-radius;
-  transition-duration: 0.9s;
-  transition-timing-function: linear;
 }
 
 .button_2 {
-  border: 1px solid white;
+  border: none;
   border-radius: 5%;
-  color: white;
+  color: #615c5c;
   background-color: transparent;
   padding: 20px;
   text-align: center;
@@ -701,15 +715,12 @@ body {
   font-family: "Lexend Peta", sans-serif;
   margin: 2px 20px;
   cursor: pointer;
-  transition-property: border-radius;
-  transition-duration: 0.9s;
-  transition-timing-function: linear;
 }
 
 .button_3 {
-  border: 1px solid white;
+  border: none;
   border-radius: 5%;
-  color: white;
+  color: #615c5c;
   background-color: transparent;
   padding: 20px;
   text-align: center;
@@ -719,10 +730,7 @@ body {
   font-size: 10px;
   font-family: "Lexend Peta", sans-serif;
   margin: 2px 20px;
-  cursor: pointer;
-  transition-property: border-radius;
-  transition-duration: 0.9s;
-  transition-timing-function: linear;
+  cursor: pointer; 
 }
 
 .button_1 {
@@ -765,21 +773,24 @@ body {
 }
 
 .button_1:hover {
-  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
 }
 
 .button_2:hover {
-  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
 }
 
 .button_3:hover {
-  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
 }
 /*End Landing Page CSS*/
 
 /*About Page CSS*/
 .about {
-  background-image: url("./image/palm.jpg");
+  /*background-image: url("./image/palm.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -787,28 +798,32 @@ body {
   background-size: cover;
   position: relative;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
 }
 
 #aboutHead {
-  font-family: "Lexend Peta", sans-serif;
-  color: #fff;
+  font-family: 'Notable', sans-serif;
+  color: #c5c2c2;
   display: inline-block;
-  text-decoration: overline solid #fff;
+  text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
-  font-size: 20px;
+  text-shadow: 2px 2px 8px #0f0f0f;
+  font-size: 25px;
   margin: 0;
   padding: 10px 10px;
 }
 
 .mySelf {
-  color: #fff;
+  color: #c5c2c2;
   text-align: center;
+  text-shadow: 2px 2px 8px #0f0f0f;
   display: block;
   font-family: "Permanent Marker", cursive;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 40px;
   margin: 20px 40px;
-  border: 2px solid #fff;
 }
 
 .mySelf:hover {
@@ -878,12 +893,16 @@ body {
 }
 
 .langIcons {
-  color: #fff;
+  color: #706d6d;
   margin: 0;
   padding: 20px 40px;
   letter-spacing: 50px;
   font-size: 30px;
   display: inline-block;
+}
+
+.langIcons #html-logo:hover {
+  cursor: pointer;
 }
 
 .aboBtn {
@@ -892,29 +911,26 @@ body {
 
 .aboutBtn {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 10%;
-  font-family: "Lexend Peta", sans-serif;
+  color: #eefa04;
+  border: none;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutBtn:hover {
-  background: #fcfafa;
-  color: #080808;
+  color: #032004;
   cursor: pointer;
-  border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 /*End About Page CSS*/
 
 /*Projects Page CSS*/
 .projects {
-  background-image: url("./image/coffee.jpg");
+  /*background-image: url("./image/coffee.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -922,17 +938,19 @@ body {
   background-size: cover;
   position: relative;
   text-align: center;
+  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
 }
 
-.projectsHead {
-  font-size: 10px;
-  font-family: "Lexend Peta", sans-serif;
-  color: #fff;
-  display: block;
-  text-decoration: overline solid #fff;
+#projectsHead {
+  font-family: 'Notable', sans-serif;
+  color: #c5c2c2;
+  display: inline-block;
+  text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
+  text-shadow: 2px 2px 8px #0f0f0f;
+  font-size: 25px;
   margin: 0;
-  padding: 5px;
+  padding: 10px 10px;
 }
 
 .proButton a {
@@ -942,7 +960,7 @@ body {
 .demoBtn {
   background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
   font-size: 8px;
@@ -958,7 +976,7 @@ body {
 .codeBtn {
   background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
   font-size: 8px;
@@ -974,7 +992,7 @@ body {
 .myBtn {
   background-color: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
   font-size: 8px;
@@ -988,7 +1006,7 @@ body {
 }
 
 .demoBtn:hover {
-  background: #fcfafa;
+  background: #fcfcfa;
   color: #080808;
   cursor: pointer;
   border-radius: 10%;
@@ -1017,18 +1035,15 @@ body {
 .goExt h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
-  padding: 5px;
-  margin: 10px 0 0 0;
-  text-align: left;
+  font-size: 12px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
   text-transform: uppercase;
-  background: #bdb9b9;
-  border-radius: 100px;
+  display: inline;
 }
 
 .goExt h2:hover {
-  color: #fff;
-  background: #9263ff;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
@@ -1105,18 +1120,14 @@ body {
 .onStore h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
-  padding: 5px;
-  margin: 10px 0 0 0;
-  text-align: left;
+  font-size: 12px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
   text-transform: uppercase;
-  background: #bdb9b9;
-  border-radius: 100px;
 }
 
 .onStore h2:hover {
-  color: #fff;
-  background: #9263ff;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
@@ -1194,18 +1205,15 @@ body {
 .chatApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
-  padding: 5px;
-  margin: 10px 0 0 0;
-  text-align: left;
+  font-size: 12px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
   text-transform: uppercase;
-  background: #bdb9b9;
-  border-radius: 100px;
+  
 }
 
 .chatApp h2:hover {
-  color: #fff;
-  background: #9263ff;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
@@ -1282,18 +1290,15 @@ body {
 .pyApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
-  padding: 5px;
-  margin: 10px 0 0 0;
-  text-align: left;
+  font-size: 12px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
   text-transform: uppercase;
-  background: #bdb9b9;
-  border-radius: 100px;
+
 }
 
 .pyApp h2:hover {
-  color: #fff;
-  background: #9263ff;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
@@ -1440,7 +1445,7 @@ body {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #393e39;
+  background-color: #fcc31b;
   color: white;
   text-transform: uppercase;
   font-family: "Lexend Peta", sans-serif;
@@ -1448,7 +1453,7 @@ body {
 
 .extMedia {
   padding: 0;
-  background: #535252;
+  background: #fcc31b;
   margin: 0;
 
 }
@@ -1501,6 +1506,10 @@ body {
     0 9px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
+.modal-body {
+  background-color: #ffffff;
+}
+
 .modal-body h3 {
   display: block;
   font-size: 15px;
@@ -1525,7 +1534,7 @@ body {
   text-transform: uppercase;
   font-family: "Lexend Peta", sans-serif;
   padding: 0;
-  background-color: #393e39;
+  background-color: #fcc31b;
   color: white;
 }
 
@@ -1541,54 +1550,50 @@ body {
 
 .projectsBtn {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 10%;
-  font-family: "Lexend Peta", sans-serif;
+  color: #eefa04;
+  border: none;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   text-align: center;
-  margin: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .projectsBtn:hover {
-  background: #fcfafa;
-  color: #080808;
+  color: #032004;
   cursor: pointer;
-  border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*End Projects Page CSS*/
 
 /*Contact CSS*/
 .connect {
-  background-image: url("./image/iphone.jpg");
+  /*background-image: url("./image/iphone.jpg");*/
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
+  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
 }
 
 .mobile h2 {
-  font-size: 20px;
-  margin: 0;
-  color: #fff;
+ font-family: 'Notable', sans-serif;
+  color: #c5c2c2;
   text-align: center;
-  text-decoration: overline solid #fff;
+  text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
-  font-family: "Lexend Peta", sans-serif;
+  text-shadow: 2px 2px 8px #0f0f0f;
+  font-size: 25px;
   margin: 0;
   padding: 10px 10px;
 }
 
 
 .button_4 {
-  color: #ffffff;
+  color: #615c5c;
   background-color: transparent;
   border: none;
   padding: 20px;
@@ -1598,7 +1603,7 @@ body {
 }
 
 .button_5 {
-  color: #ffffff;
+  color: #615c5c;
   background-color: transparent;
   border: none;
   padding: 20px;
@@ -1608,7 +1613,7 @@ body {
 }
 
 .button_6 {
-  color: #ffffff;
+  color: #615c5c;
   background-color: transparent;
   border: none;
   padding: 20px;
@@ -1618,7 +1623,7 @@ body {
 }
 
 .button_7 {
-  color: #ffffff;
+  color: #615c5c;
   background-color: transparent;
   border: none;
   padding: 20px;
@@ -1666,23 +1671,19 @@ body {
 
 .connectBtn {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 10%;
-  font-family: "Lexend Peta", sans-serif;
+  color: #eefa04;
+  border: none;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .connectBtn:hover {
-  background: #fcfafa;
-  color: #080808;
+  color: #032004;
   cursor: pointer;
-  border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*End Contact CSS*/
