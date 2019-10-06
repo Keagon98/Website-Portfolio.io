@@ -40,6 +40,516 @@ body {
   background: #bdb9b9;
 }
 
+@media only screen and (max-width: 400px) {
+
+   .middle .mainhead h1  {
+    color: #c5c2c2;
+    font-family: 'Notable', sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 13px #0f0f0f;
+    padding-top: 0;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .iconbtn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -3;
+  }
+  
+  .iconbtn:hover{
+    animation: ro 1s linear infinite;
+  }
+  
+  @keyframes ro {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  .floatBtn .button_1 {
+  border: none;
+  color: #615c5c;
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 5px;
+  font-family: "Lexend Peta", sans-serif;
+  margin: 2px 20px;
+  cursor: pointer;
+  transition-property: border-radius;
+  transition-duration: 0.9s;
+  transition-timing-function: linear;
+  }
+  
+  .floatBtn .button_2 {
+    border: none;
+    color: #615c5c;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 5px;
+    font-family: "Lexend Peta", sans-serif;
+    margin: 2px 20px;
+    cursor: pointer;
+    transition-property: border-radius;
+    transition-duration: 0.9s;
+    transition-timing-function: linear;
+  }
+  
+  .floatBtn .button_3 {
+    border: none;
+    color: #615c5c;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 5px;
+    font-family: "Lexend Peta", sans-serif;
+    margin: 2px 20px;
+    cursor: pointer;
+    transition-property: border-radius;
+    transition-duration: 0.9s;
+    transition-timing-function: linear;
+  }
+
+  .mySelf #aboutMe {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-family: "Permanent Marker", cursive;
+    font-size: 2px;
+    padding: 1px 5px;
+    margin: 1px 5px;
+  }
+
+  #proBtn  {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10%;
+    font-family: "Lexend Peta", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 8px;
+    margin:  2px;
+    padding: 0;
+    display: inline;
+
+  }
+
+  .projectsBtn h3:hover {
+    background: #fcfafa;
+    color: #080808;
+    cursor: pointer;
+    border-radius: 10%;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mainhead h1 {
+    color: #c5c2c2;
+    font-family: 'Notable', sans-serif;
+    font-size: 45px;
+    text-shadow: 5px 5px 13px #0f0f0f;
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-right: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .mainhead h1 {
+    animation: tracking-in-contract-bck-top 1s
+      cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  h3 {
+    font-size: 8px;
+  }
+
+  #number {
+    font-size: 15px;
+  }
+
+  .about #aboutHead {
+    font-size: 20px;
+    text-shadow: 3px 3px 10px #0f0f0f;
+  }
+
+  .mySelf #aboutMe {
+    color: #c5c2c2;
+    text-shadow: 3px 3px 10px #0f0f0f;
+    text-align: center;
+    display: inline-block;
+    font-family: "Permanent Marker", cursive;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .langIcons i {
+    color: #706d6d;
+    margin: 0;
+    padding: 1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: inline;
+  }
+
+  .projects #projectsHead {
+    font-size: 20px;
+    text-shadow: 3px 3px 10px #0f0f0f;
+  }
+
+  .connect i {
+    color: #fff;
+    margin: 0;
+    padding: 2px 4px;
+    font-size: 30px;
+    display: inline-block;
+  }
+
+  .aboBtn {
+    margin: 500px;
+  }
+
+  .aboutBtn i {
+    background-color: transparent;
+    color: #eefa04;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .aboutBtn i:hover {
+    color: #080808;
+    cursor: pointer;
+    
+  }
+
+  .modal-header #extImg {
+    height: 100px;
+    float: left;
+    display: block;
+  }
+
+  .projects .goExt h2 {
+    font-size: 12px;
+  }
+
+  .projects .onStore h2 {
+    font-size: 12px;
+  }
+
+  .projects .chatApp h2 {
+    font-size: 12px;
+  }
+
+  .projects .pyApp h2 {
+    font-size: 12px;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    font-size: 10px;
+  }
+
+  .modal h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #ec1010;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    padding: 1px 8px;
+    background-color: #393e39;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 15px;
+  }
+
+  .extMedia #extImg {
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 125px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+    
+  }
+
+  .extMedia #extImg:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .extMedia #extVid {
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 125px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+  }
+
+  .extMedia #extVid:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .extMedia #chatVid {
+    width: 200px;
+    height: 105px;
+    margin: 2px;
+    border: 2px #312e2e solid;
+    border-radius: 10px;
+  }
+
+  .extMedia #chatVid:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
+      0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #header-mo {
+    font-size: 15px;
+  }
+
+  .modal-body h3 {
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  .modal-body #modal-body-p {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .modal-footer {
+    text-transform: uppercase;
+    font-family: "Lexend Peta", sans-serif;
+    padding: 1px 8px;
+    background-color: #393e39;
+    color: white;
+  }
+
+  #tools {
+    display: block;
+  }
+
+  .proBtn {
+    margin: 20px;
+  }
+  .proBtn i {
+    background-color: transparent;
+    color: #eefa04;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   font-size: 30px;
+  }
+
+  .proBtn i:hover {
+    color: #080808;
+    cursor: pointer;
+    
+  }
+
+  .projectsHead h1 {
+    font-size: 15px;
+    font-family: "Lexend Peta", sans-serif;
+    color: #fff;
+    display: block;
+    text-decoration: overline solid #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-body ul {
+    list-style: circle;
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 9px;
+  }
+
+  .modal-body #modal-body-p {
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 9px;
+  }
+  
+
+  .icons .button_7 {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: block;
+  }
+
+.button_4 .iconbtn {
+  color: #615c5c;
+}
+
+.button_5 .iconbtn {
+  color: #615c5c;
+}
+
+.button_6 .iconbtn {
+  color: #615c5c;
+}
+
+.button_7 .iconbtn {
+  color: #615c5c;
+}
+
+  .conBtn a {
+    margin: 900px 0 0 0;
+  }
+
+  .connectBtn i {
+    background-color: transparent;
+  color: #eefa04;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+
+  .connectBtn i:hover {
+    color: #032004;
+  cursor: pointer;
+  }
+}
+
 /*Landing Page CSS*/
 .landing {
   background-repeat: no-repeat;
