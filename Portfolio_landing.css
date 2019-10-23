@@ -11,9 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  outline: none;
+}
+
 body {
   margin: 0;
   padding: 0; 
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Scrollbar (Custom)*/
@@ -291,19 +299,19 @@ body {
   }
 
   .projects .goExt h2 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .projects .onStore h2 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .projects .chatApp h2 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .projects .pyApp h2 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   /* The Modal (background) */
@@ -553,7 +561,7 @@ body {
 /*Landing Page CSS*/
 .landing {
   background-repeat: no-repeat;
-  height: 100%;
+  height: 110%;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -790,7 +798,7 @@ body {
 /*About Page CSS*/
 .about {
   background-repeat: no-repeat;
-  height: 100%;
+  height: 110%;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -930,7 +938,7 @@ body {
 .projects {
   /*background-image: url("./image/coffee.jpg");*/
   background-repeat: no-repeat;
-  height: 100%;
+  height: 115%;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -999,7 +1007,7 @@ body {
   position: relative;
   text-align: center;
   margin: 2px;
-  padding: 2px 10px;
+  padding: 2px 5px;
   cursor: pointer;
 }
 
@@ -1033,9 +1041,9 @@ body {
 .goExt h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0;
-  margin: 1px;
+  margin: 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1117,7 +1125,7 @@ body {
 .onStore h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1202,7 +1210,7 @@ body {
 .chatApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1287,7 +1295,7 @@ body {
 .pyApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1488,9 +1496,9 @@ body {
 }
 
 #chatVid {
-  height: 100px;
-  width: 150px;
-  margin: 10;
+  height: 140px;
+  width: 300px;
+  margin: 0;
   padding: 0;
   float: center;
   border: 2px #312e2e solid;
