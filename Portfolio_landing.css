@@ -798,7 +798,7 @@ a {
 /*About Page CSS*/
 .about {
   background-repeat: no-repeat;
-  height: 110%;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -938,7 +938,7 @@ a {
 .projects {
   /*background-image: url("./image/coffee.jpg");*/
   background-repeat: no-repeat;
-  height: 115%;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-size: cover;
