@@ -5,7 +5,8 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Gayathri&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:600i&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -51,10 +52,10 @@ a {
 @media only screen and (max-width: 400px) {
 
    .middle .mainhead h1  {
-    color: #c5c2c2;
-    font-family: 'Notable', sans-serif;
+    color: #ddd9d9;
+    font-family: 'Exo 2', sans-serif;
     font-size: 35px;
-    text-shadow: 5px 5px 13px #0f0f0f;
+    text-shadow: 1px 1px 10px #0f0f0f;
     padding-top: 0;
     text-align: center;
     margin-left: 30px;
@@ -176,7 +177,6 @@ a {
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
-  
 
 
 }
@@ -192,10 +192,10 @@ a {
   }
 
   .mainhead h1 {
-    color: #c5c2c2;
-    font-family: 'Notable', sans-serif;
+    color: #ddd9d9;
+    font-family: 'Exo 2', sans-serif;
     font-size: 45px;
-    text-shadow: 5px 5px 13px #0f0f0f;
+    text-shadow: 4px 4px 10px #0f0f0f;
     padding-top: 0px;
     margin-top: 50px;
     margin-right: 25px;
@@ -509,6 +509,18 @@ a {
     font-family: "Lexend Peta", sans-serif;
     font-size: 9px;
   }
+
+   .connect #connectHead {
+    font-family: "Lexend Peta", sans-serif;
+    color: #f0e2e2;
+    text-align: center;
+    text-decoration: overline solid #c5c2c2;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #0f0f0f;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+  }
   
 
   .icons .button_7 {
@@ -632,13 +644,12 @@ a {
   padding-top: 100px;
 }
 
-.mainhead{
-  color: #c5c2c2;
-  font-family: 'Notable', sans-serif;
-  font-size: 40px;
+.mainhead {
+  color: #ddd9d9;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 50px;
   text-shadow: 5px 5px 13px #0f0f0f;
   padding-top: 0px;
-  margin-top: 100px;
   text-transform: uppercase;
 }
 
@@ -661,6 +672,8 @@ a {
     opacity: 1;
   }
 }
+
+
 
 .floatBtn {
   padding-top: 20px;
@@ -810,13 +823,13 @@ a {
 }
 
 #aboutHead {
-  font-family: 'Notable', sans-serif;
-  color: #c5c2c2;
+  font-family: "Lexend Peta", sans-serif;
+  color: #f0e2e2;
   display: inline-block;
   text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
   text-shadow: 2px 2px 8px #0f0f0f;
-  font-size: 25px;
+  font-size: 30px;
   margin: 0;
   padding: 10px 10px;
 }
@@ -948,13 +961,13 @@ a {
 }
 
 #projectsHead {
-  font-family: 'Notable', sans-serif;
-  color: #c5c2c2;
+  font-family: "Lexend Peta", sans-serif;
+  color: #f0e2e2;
   display: inline-block;
   text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
   text-shadow: 2px 2px 8px #0f0f0f;
-  font-size: 25px;
+  font-size: 30px;
   margin: 0;
   padding: 10px 10px;
 }
@@ -1583,14 +1596,14 @@ a {
   background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
 }
 
-.mobile h2 {
- font-family: 'Notable', sans-serif;
-  color: #c5c2c2;
+#connectHead {
+  font-family: "Lexend Peta", sans-serif;
+  color: #f0e2e2;
   text-align: center;
   text-decoration: overline solid #c5c2c2;
   text-transform: uppercase;
   text-shadow: 2px 2px 8px #0f0f0f;
-  font-size: 25px;
+  font-size: 30px;
   margin: 0;
   padding: 10px 10px;
 }
@@ -1600,7 +1613,7 @@ a {
   color: #615c5c;
   background-color: transparent;
   border: none;
-  padding: 20px;
+  padding: 15px;
   margin: 2px 20px;
   cursor: pointer;
   display: block;
@@ -1610,17 +1623,18 @@ a {
   color: #615c5c;
   background-color: transparent;
   border: none;
-  padding: 20px;
+  padding: 15px;
   margin: 2px 20px;
   cursor: pointer;
   display: block;
 }
 
+
 .button_6 {
   color: #615c5c;
   background-color: transparent;
   border: none;
-  padding: 20px;
+  padding: 15px;
   margin: 2px 20px;
   cursor: pointer;
   display: block;
@@ -1630,21 +1644,39 @@ a {
   color: #615c5c;
   background-color: transparent;
   border: none;
-  padding: 20px;
+  padding: 15px;
   margin: 2px 20px;
   cursor: pointer;
   display: block;
   
 }
 
+.button_4 h3 {
+  font-size: 8px;
+  font-family: "Lexend Peta", sans-serif;
+  text-transform: uppercase;
+}
+
+.button_5 h3 {
+  font-size: 8px;
+  font-family: "Lexend Peta", sans-serif;
+  text-transform: uppercase;
+}
+
+.button_6 h3 {
+  font-size: 8px;
+  font-family: "Lexend Peta", sans-serif;
+  text-transform: uppercase;
+}
+
 .button_7 h3 {
-  font-size: 10px;
+  font-size: 8px;
   font-family: "Lexend Peta", sans-serif;
   text-transform: uppercase;
 }
 
 .button_4:hover {
-  border-radius: 100%;
+  border-radius: 10%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
