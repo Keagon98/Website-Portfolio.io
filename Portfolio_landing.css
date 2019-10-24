@@ -520,7 +520,6 @@ a {
     margin: 0;
     padding: 10px 10px;
   }
-  
 
   .icons .button_7 {
     background-color: transparent;
@@ -1486,6 +1485,10 @@ a {
   border-radius: 10px;
 }
 
+
+
+
+
  #extImg:hover {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
     0 9px 25px 0 rgba(0, 0, 0, 0.19);
@@ -1515,12 +1518,16 @@ a {
   float: center;
   border: 2px #312e2e solid;
   border-radius: 10px;
+-webkit-filter: blur(1px);filter: blur(1px);
+
 }
+
 
 
  #chatVid:hover {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.24),
     0 9px 25px 0 rgba(0, 0, 0, 0.19);
+    -webkit-filter: blur(0);filter: blur(0);
 }
 
 .modal-body {
@@ -1606,7 +1613,6 @@ a {
   margin: 0;
   padding: 10px 10px;
 }
-
 
 .button_4 {
   color: #615c5c;
@@ -1720,5 +1726,6 @@ a {
   color: #032004;
   cursor: pointer;
 }
+
 
 /*End Contact CSS*/
