@@ -62,6 +62,18 @@ a {
     text-transform: uppercase;
   }
 
+  .middle .mainhead h6  {
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #f5eeee;
+    text-shadow: none;
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: -100px;
+  }
+
   .iconbtn::after{
     content: '';
     position: absolute;
@@ -193,7 +205,7 @@ a {
   .mainhead h1 {
     color: #ddd9d9;
     font-family: 'Exo 2', sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     text-shadow: 4px 4px 10px #0f0f0f;
     padding-top: 0px;
     margin-top: 50px;
@@ -203,23 +215,22 @@ a {
   }
 
   .mainhead h1 {
-    animation: tracking-in-contract-bck-top 1s
-      cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  }
+    -webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both
+}
 
-  @keyframes tracking-in-contract-bck-top {
-    0% {
-      letter-spacing: 1em;
-      transform: translateZ(400px) translateY(-300px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
+@-webkit-keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 40px 20px rgba(0,0,0,20)}}@keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 40px 20px rgba(0,0,0,20)}}
+  
+
+.middle .mainhead #smallText  {
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: #f5eeee;
+    text-shadow: none;
+    padding: 0;
+    margin-top: -30px;
+    margin-bottom: 50px;
   }
 
   h3 {
@@ -232,12 +243,12 @@ a {
 
   .about #aboutHead {
     font-size: 20px;
-    text-shadow: 3px 3px 10px #0f0f0f;
+    text-shadow: none;
   }
 
   .mySelf #aboutMe {
     color: #f0e2e2;
-    text-shadow: 1px 1px 5px #0f0f0f;
+    text-shadow: 1px 1px 2px #0f0f0f;
     text-align: center;
     display: inline-block;
     font-family: "Lexend Peta", sans-serif;
@@ -257,7 +268,7 @@ a {
 
   .projects #projectsHead {
     font-size: 20px;
-    text-shadow: 3px 3px 10px #0f0f0f;
+    text-shadow: none;
   }
 
   .connect i {
@@ -274,7 +285,7 @@ a {
 
   .aboutBtn i {
     background-color: transparent;
-    color: #eefa04;
+    color: #ee923c;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -286,7 +297,7 @@ a {
   }
 
   .aboutBtn i:hover {
-    color: #080808;
+    color: #854509;
     cursor: pointer;
     
   }
@@ -298,19 +309,19 @@ a {
   }
 
   .projects .goExt h2 {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .projects .onStore h2 {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .projects .chatApp h2 {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .projects .pyApp h2 {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   /* The Modal (background) */
@@ -470,7 +481,7 @@ a {
   }
   .proBtn i {
     background-color: transparent;
-    color: #eefa04;
+    color: #ee923c;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -482,7 +493,7 @@ a {
   }
 
   .proBtn i:hover {
-    color: #080808;
+    color: #854509;
     cursor: pointer;
     
   }
@@ -513,9 +524,9 @@ a {
     font-family: "Lexend Peta", sans-serif;
     color: #f0e2e2;
     text-align: center;
-    text-decoration: overline solid #c5c2c2;
+    text-decoration: overline solid #f0e2e2;
     text-transform: uppercase;
-    text-shadow: 2px 2px 8px #0f0f0f;
+    text-shadow: none;
     font-size: 20px;
     margin: 0;
     padding: 10px 10px;
@@ -552,7 +563,7 @@ a {
 
   .connectBtn i {
     background-color: transparent;
-  color: #eefa04;
+  color: #ee923c;
   border: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -563,7 +574,7 @@ a {
   }
 
   .connectBtn i:hover {
-    color: #032004;
+    color: #854509;
   cursor: pointer;
   }
 }
@@ -576,7 +587,7 @@ a {
   background-position: center;
   background-size: cover;
   position: relative;
-  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
+  background: linear-gradient(450deg, #fcc31b 80%, #ee923c 50%);
 }
 
 .myName {
@@ -639,36 +650,40 @@ a {
 
 .middle {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 100px ;
 }
 
 .mainhead {
   color: #ddd9d9;
   font-family: 'Exo 2', sans-serif;
   font-size: 50px;
-  text-shadow: 5px 5px 13px #0f0f0f;
+  text-shadow: 2px 2px 10px #0f0f0f;
   padding-top: 0px;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 .mainhead {
-  animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
+  -webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both
 }
 
-@keyframes tracking-in-contract-bck-top {
-  0% {
-    letter-spacing: 1em;
-    transform: translateZ(400px) translateY(-300px);
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateZ(0) translateY(0);
-    opacity: 1;
-  }
+@-webkit-keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 8px 0 #a8a6a6,0 9px 0 #a8a6a6,0 50px 30px rgba(0,0,0,20)}}@keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 8px 0 #a8a6a6,0 9px 0 #a8a6a6,0 50px 30px rgba(0,0,0,20)}}
+
+#smallText {
+  font-family: "Lexend Peta", sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #f5eeee;
+  text-shadow: none;
+  padding: 0;
+  margin-top: -10px;
+  margin-bottom: -100px;
+}
+
+span {
+  color: #4b4d4b;
 }
 
 
@@ -817,16 +832,15 @@ a {
   text-align: center;
   margin: 0;
   padding: 0;
-  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
+  background: linear-gradient(450deg, #fcc31b 80%, #ee923c 50%);
 }
 
 #aboutHead {
   font-family: "Lexend Peta", sans-serif;
   color: #f0e2e2;
   display: inline-block;
-  text-decoration: overline solid #c5c2c2;
+  text-decoration: overline solid #f0e2e2;
   text-transform: uppercase;
-  text-shadow: 2px 2px 8px #0f0f0f;
   font-size: 30px;
   margin: 0;
   padding: 10px 10px;
@@ -834,7 +848,7 @@ a {
 
 .mySelf {
   color: #f0e2e2;
-  text-shadow: 1px 1px 5px #0f0f0f;
+  text-shadow: 1px 1px 2px #0f0f0f;
   text-align: center;
   display: block;
   font-family: "Lexend Peta", sans-serif;
@@ -843,71 +857,6 @@ a {
   margin: 20px 40px;
 }
 
-.mySelf:hover {
-  -webkit-animation: jello-vertical 0.9s both;
-  animation: jello-vertical 0.9s both;
-}
-
-@-webkit-keyframes jello-vertical {
-  0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  30% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
-  }
-  40% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(0.85, 1.15, 1);
-    transform: scale3d(0.85, 1.15, 1);
-  }
-  65% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1);
-  }
-  75% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-@keyframes jello-vertical {
-  0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  30% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
-  }
-  40% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(0.85, 1.15, 1);
-    transform: scale3d(0.85, 1.15, 1);
-  }
-  65% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1);
-  }
-  75% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
 
 .langIcons {
   color: #706d6d;
@@ -928,8 +877,9 @@ a {
 
 .aboutBtn {
   background-color: transparent;
-  color: #eefa04;
+  color: #df822b;
   border: none;
+  border-radius: 100%;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -939,9 +889,12 @@ a {
 }
 
 .aboutBtn:hover {
-  color: #032004;
+  color: #854509;
   cursor: pointer;
+  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
+
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 /*End About Page CSS*/
 
@@ -949,22 +902,21 @@ a {
 .projects {
   /*background-image: url("./image/coffee.jpg");*/
   background-repeat: no-repeat;
-  height: 115%;
+  height: 135%;
   width: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
   text-align: center;
-  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
+  background: linear-gradient(450deg, #fcc31b 80%, #ee923c 50%);
 }
 
 #projectsHead {
   font-family: "Lexend Peta", sans-serif;
   color: #f0e2e2;
   display: inline-block;
-  text-decoration: overline solid #c5c2c2;
+  text-decoration: overline solid #f0e2e2;
   text-transform: uppercase;
-  text-shadow: 2px 2px 8px #0f0f0f;
   font-size: 30px;
   margin: 0;
   padding: 10px 10px;
@@ -980,7 +932,7 @@ a {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -988,6 +940,7 @@ a {
   margin: 0;
   padding: 3px;
   cursor: pointer;
+  text-shadow: 1px 1px 2px #0f0f0f;
 }
 
 .codeBtn {
@@ -996,7 +949,7 @@ a {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1004,6 +957,7 @@ a {
   margin: 0;
   padding: 3px;
   cursor: pointer;
+  text-shadow: 1px 1px 2px #0f0f0f;
 }
 
 .myBtn {
@@ -1012,7 +966,7 @@ a {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1020,6 +974,7 @@ a {
   margin: 2px;
   padding: 2px 5px;
   cursor: pointer;
+  text-shadow: 1px 1px 2px #0f0f0f;
 }
 
 .demoBtn:hover {
@@ -1029,6 +984,7 @@ a {
   border-radius: 10%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: none;
 }
 
 .codeBtn:hover {
@@ -1038,6 +994,7 @@ a {
   border-radius: 10%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: none;
 }
 
 .myBtn:hover {
@@ -1047,12 +1004,13 @@ a {
   border-radius: 10%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: none;
 }
 
 .goExt h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 11px;
+  font-size: 17px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -1136,7 +1094,7 @@ a {
 .onStore h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 11px;
+  font-size: 17px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1221,7 +1179,7 @@ a {
 .chatApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 11px;
+  font-size: 17px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1306,7 +1264,7 @@ a {
 .pyApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 11px;
+  font-size: 17px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1410,7 +1368,8 @@ a {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #ee923c;
+  text-shadow: 1px 1px 2px #0f0f0f;
   margin: auto;
   padding: 0;
   width: 80%;
@@ -1531,13 +1490,14 @@ a {
 }
 
 .modal-body {
-  background-color: #ffffff;
+  background-color: #ee923c;
 }
 
 .modal-body h3 {
   display: block;
   font-size: 15px;
   text-transform: uppercase;
+  color: #fefefe;
 }
 
 .modal-body p{
@@ -1546,11 +1506,13 @@ a {
   font-family: "Lexend Peta", sans-serif;
   display: block;
   font-size: 15px;
+  color: #fefefe;
 }
 
 .modal-body ul {
   list-style: circle;
   font-family: "Lexend Peta", sans-serif;
+  color: #fefefe;
   
 }
 
@@ -1574,8 +1536,9 @@ a {
 
 .projectsBtn {
   background-color: transparent;
-  color: #eefa04;
+  color: #df822b;
   border: none;
+  border-radius: 100%;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1585,9 +1548,12 @@ a {
 }
 
 .projectsBtn:hover {
-  color: #032004;
+  color: #854509;
   cursor: pointer;
+  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
+
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 /*End Projects Page CSS*/
 
@@ -1599,16 +1565,15 @@ a {
   background-position: center;
   background-size: cover;
   position: relative;
-  background: linear-gradient(450deg, #fcc31b 70%, #ffe601 60%);
+  background: linear-gradient(450deg, #fcc31b 80%, #ee923c 50%);
 }
 
 #connectHead {
   font-family: "Lexend Peta", sans-serif;
   color: #f0e2e2;
   text-align: center;
-  text-decoration: overline solid #c5c2c2;
+  text-decoration: overline solid #f0e2e2;
   text-transform: uppercase;
-  text-shadow: 2px 2px 8px #0f0f0f;
   font-size: 30px;
   margin: 0;
   padding: 10px 10px;
@@ -1682,26 +1647,22 @@ a {
 
 .button_4:hover {
   border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .button_5:hover {
   border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 
 .button_6:hover {
   border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 
 .button_7:hover {
   border-radius: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 
@@ -1712,8 +1673,9 @@ a {
 
 .connectBtn {
   background-color: transparent;
-  color: #eefa04;
+  color: #df822b;
   border: none;
+  border-radius: 100%;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1723,9 +1685,12 @@ a {
 }
 
 .connectBtn:hover {
-  color: #032004;
+  color: #854509;
   cursor: pointer;
+  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
+
+@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 
 /*End Contact CSS*/
