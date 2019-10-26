@@ -229,7 +229,7 @@ a {
     height: var(--height);
     text-align: center;
     line-height: var(--height);
-    font-size: calc(var(--height) / 2.9);
+    font-size: calc(var(--height) / 3.6);
     font-family: "Lexend Peta", sans-serif;
     letter-spacing: 0.4em;
     border: 1px solid #fab506;
