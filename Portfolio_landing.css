@@ -1076,7 +1076,7 @@ span {
 }
 
 .demoBtn:hover {
-  background: #fcfcfa;
+  background: #ee923c;
   color: #080808;
   cursor: pointer;
   border-radius: 10%;
@@ -1086,7 +1086,7 @@ span {
 }
 
 .codeBtn:hover {
-  background: #fcfafa;
+  background: #ee923c;
   color: #080808;
   cursor: pointer;
   border-radius: 10%;
@@ -1096,7 +1096,7 @@ span {
 }
 
 .myBtn:hover {
-  background: #fcfafa;
+  background: #ee923c;
   color: #080808;
   cursor: pointer;
   border-radius: 10%;
@@ -1596,6 +1596,7 @@ span {
   font-size: 15px;
   text-transform: uppercase;
   color: #fefefe;
+  font-family: "Lexend Peta", sans-serif;
 }
 
 .modal-body p{
