@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gayathri&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Exo+2:600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -53,7 +54,7 @@ a {
 
    .middle .mainhead h1  {
     color: #ddd9d9;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-size: 35px;
     text-shadow: 1px 1px 10px #0f0f0f;
     padding-top: 0;
@@ -182,7 +183,7 @@ a {
 
   .mainhead h1 {
     color: #ddd9d9;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-size: 80px;
     text-shadow: 4px 4px 10px #0f0f0f;
     padding-top: 0px;
@@ -742,7 +743,7 @@ a {
 
 .mainhead {
   color: #ddd9d9;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-size: 80px;
   text-shadow: 2px 2px 10px #0f0f0f;
   padding-top: 0px;
