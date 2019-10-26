@@ -194,7 +194,7 @@ a {
   }
 
   .mainhead h1 {
-    -webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both
+    -webkit-animation:text-pop-up-top 3s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top 3s cubic-bezier(.25,.46,.45,.94) both
 }
 
 @-webkit-keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 40px 20px rgba(0,0,0,20)}}@keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 40px 20px rgba(0,0,0,20)}}
@@ -737,7 +737,7 @@ a {
 
 .middle {
   text-align: center;
-  padding-top: 100px ;
+  padding-top: 50px ;
 }
 
 .mainhead {
@@ -753,7 +753,7 @@ a {
 }
 
 .mainhead {
-  -webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both
+  -webkit-animation:text-pop-up-top 3s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top 3s cubic-bezier(.25,.46,.45,.94) both
 }
 
 @-webkit-keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 8px 0 #a8a6a6,0 9px 0 #a8a6a6,0 50px 30px rgba(0,0,0,20)}}@keyframes text-pop-up-top{0%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:none}100%{-webkit-transform:translateY(-50px);transform:translateY(-50px);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;text-shadow:0 1px 0 #a8a6a6,0 2px 0 #a8a6a6,0 3px 0 #a8a6a6,0 4px 0 #a8a6a6,0 5px 0 #a8a6a6,0 6px 0 #a8a6a6,0 7px 0 #a8a6a6,0 8px 0 #a8a6a6,0 9px 0 #a8a6a6,0 50px 30px rgba(0,0,0,20)}}
