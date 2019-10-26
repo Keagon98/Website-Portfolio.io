@@ -22,6 +22,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #464444;
 }
 
 /*Scrollbar (Custom)*/
@@ -127,55 +128,7 @@ a {
     left: 100%;
   }
   
-  #btn2 {
-    background: linear-gradient(to right, #fcc31b, #e78a0f);
-    --width: 100px;
-    --height: calc(var(--width) / 2);
-    width: var(--width);
-    height: var(--height);
-    text-align: center;
-    line-height: var(--height);
-    font-size: calc(var(--height) / 4.5);
-    font-family: "Lexend Peta", sans-serif;
-    letter-spacing: 0.2em;
-    border: 1px solid #fab506;
-    border-radius: 4em;
-    transform: perspective(300px) rotateY(30deg);
-    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: 1s;
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    text-transform: uppercase;
-  }
-  
-  
- #btn2 a {
-    outline: none;
-    color: #333030;
-  }
-  
- #btn2:hover {
-    transform: perspective(300px) rotateY(-30deg);
-    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-  }
-  
-  #btn2::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, white, transparent);
-    left: -100%;
-    transition: 1s;
-  }
-  
- #btn2:hover::before {
-    left: 100%;
-  }
+
 
   .mySelf #aboutMe {
     color: #fff;
@@ -215,6 +168,8 @@ a {
 
 }
 
+
+
 @media only screen and (max-width: 1200px) {
   html {
     scroll-behavior: smooth;
@@ -228,13 +183,14 @@ a {
   .mainhead h1 {
     color: #ddd9d9;
     font-family: 'Exo 2', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     text-shadow: 4px 4px 10px #0f0f0f;
     padding-top: 0px;
     margin-top: 50px;
     margin-right: 25px;
     display: inline-block;
     text-transform: uppercase;
+    letter-spacing: 10px
   }
 
   .mainhead h1 {
@@ -254,10 +210,15 @@ a {
     padding: 0;
     margin-top: -30px;
     margin-bottom: 50px;
+    letter-spacing: 5px;
   }
 
   .main-btn-class {
     display: inline-block;
+    margin: 80px;
+    margin-bottom: 5px;
+    padding: 50px;
+    margin-top: -30px;
   }
   
    #btn1 {
@@ -279,7 +240,7 @@ a {
     transition: 1s;
     position: relative;
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
     text-transform: uppercase;
   }
   
@@ -294,6 +255,7 @@ a {
     box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
+
   
   #btn1::before {
     content: '';
@@ -309,55 +271,6 @@ a {
     left: 100%;
   }
   
- #btn2  {
-    background: linear-gradient(to right, #fcc31b, #e78a0f);
-    --width: 120px;
-    --height: calc(var(--width) / 3);
-    width: var(--width);
-    height: var(--height);
-    text-align: center;
-    line-height: var(--height);
-    font-size: calc(var(--height) / 3.3);
-    font-family: "Lexend Peta", sans-serif;
-    letter-spacing: 0.4em;
-    border: 1px solid #fab506;
-    border-radius: 4em;
-    transform: perspective(300px) rotateY(30deg);
-    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: 1s;
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    text-transform: uppercase;
-  }
-  
-  
-  #btn2 a {
-    outline: none;
-    color: #333030;
-  }
-  
-  #btn2:hover {
-    transform: perspective(300px) rotateY(-30deg);
-    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-  }
-  
-  #btn2::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, white, transparent);
-    left: -100%;
-    transition: 1s;
-  }
-  
-  #btn2:hover::before {
-    left: 100%;
-  }
 
   h3 {
     font-size: 8px;
@@ -378,7 +291,7 @@ a {
     text-align: center;
     display: inline-block;
     font-family: "Lexend Peta", sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0;
     margin: 0;
   }
@@ -388,8 +301,9 @@ a {
     margin: 0;
     padding: 1px;
     letter-spacing: 1px;
-    font-size: 18px;
-    display: inline;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 50px;
   }
 
   .projects #projectsHead {
@@ -406,7 +320,7 @@ a {
   }
 
   .aboBtn {
-    margin: 500px;
+    margin: 200px;
   }
 
   .aboutBtn i {
@@ -420,6 +334,7 @@ a {
     padding: 0;
     margin: 0;
     font-size: 30px;
+   
   }
 
   .aboutBtn i:hover {
@@ -435,19 +350,23 @@ a {
   }
 
   .projects .goExt h2 {
-    font-size: 9px;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   .projects .onStore h2 {
-    font-size: 9px;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   .projects .chatApp h2 {
-    font-size: 9px;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   .projects .pyApp h2 {
-    font-size: 9px;
+    font-size: 12px;
+    margin-top: 40px;
   }
 
   /* The Modal (background) */
@@ -658,31 +577,72 @@ a {
     padding: 10px 10px;
   }
 
-  .icons .button_7 {
-    background-color: transparent;
-    border: none;
-    padding: 21px;
-    margin: 0 10px;
-    cursor: pointer;
-    display: block;
+  .touch-btn-class {
+    display: inline-block;
+    margin: 80px;
+    margin-bottom: 5px;
+    padding: 30px;
+    margin-top: 30px;
   }
 
-.button_4 .iconbtn {
-  color: #615c5c;
-}
-
-.button_5 .iconbtn {
-  color: #615c5c;
-}
-
-.button_6 .iconbtn {
-  color: #615c5c;
-}
-
-.button_7 .iconbtn {
-  color: #615c5c;
-}
-
+  .touch-btn-class .iconBtn {
+    color: #312e2e ;
+  }
+  
+  .touch-btn {
+    background: linear-gradient(to right, #fcc31b, #e78a0f);
+    --width: 190px;
+    --height: calc(var(--width) / 3);
+    width: var(--width);
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    font-size: calc(var(--height) / 3.5);
+    font-family: "Lexend Peta", sans-serif;
+    letter-spacing: 0.4em;
+    border: 1px solid #fab506;
+    border-radius: 4em;
+    transform: perspective(300px) rotateY(-30deg);
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 550px;
+    text-transform: uppercase;
+  }
+  
+  .touch-btn a {
+    outline: none;
+    color: #333030;
+  }
+  
+  .touch-btn:hover {
+    transform: perspective(300px) rotateY(30deg);
+    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .touch-btn::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, white, transparent);
+    left: -100%;
+    transition: 1s;
+  }
+  
+  .touch-btn:hover::before {
+    left: 100%;
+  }
+  
+  #btn1 {
+    margin: 20px;
+    margin-bottom: 45px;
+  }
   .conBtn a {
     margin: 900px 0 0 0;
   }
@@ -697,6 +657,7 @@ a {
   text-align: center;
   padding: 0;
   margin: 0;
+  margin-top: -100px;
   }
 
   .connectBtn i:hover {
@@ -782,12 +743,13 @@ a {
 .mainhead {
   color: #ddd9d9;
   font-family: 'Exo 2', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
   text-shadow: 2px 2px 10px #0f0f0f;
   padding-top: 0px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  letter-spacing: 20px;
 }
 
 .mainhead {
@@ -836,6 +798,7 @@ span {
 	position: relative;
   overflow: hidden;
   margin: 20px;
+  margin-top: 100px;
   text-transform: uppercase;
 }
 
@@ -858,64 +821,18 @@ span {
 	height: 100%;
 	background: linear-gradient(to right, transparent, white, transparent);
 	left: -100%;
-	transition: 1s;
+  transition: 1s;
 }
 
 .main-btn:hover::before {
   left: 100%;
 }
 
-.main-btn-2 {
-	background: linear-gradient(to right, #fcc31b, #e78a0f);
-	--width: 190px;
-	--height: calc(var(--width) / 3);
-	width: var(--width);
-	height: var(--height);
-	text-align: center;
-	line-height: var(--height);
-	font-size: calc(var(--height) / 3.5);
-	font-family: "Lexend Peta", sans-serif;
-	letter-spacing: 0.4em;
-	border: 1px solid #fab506;
-	border-radius: 4em;
-	transform: perspective(300px) rotateY(30deg);
-	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
-	transition: 1s;
-	position: relative;
-  overflow: hidden;
-  margin: 20px;
-  text-transform: uppercase;
+
+
+#btn1, #btn2 {
+  display: inline-block;
 }
-
-
-.main-btn-2 a {
-  outline: none;
-  color: #333030;
-}
-
-.main-btn-2:hover {
-	transform: perspective(300px) rotateY(-30deg);
-	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-.main-btn-2::before {
-	content: '';
-  position: absolute;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to right, transparent, white, transparent);
-	left: -100%;
-	transition: 1s;
-}
-
-.main-btn-2:hover::before {
-  left: 100%;
-}
-
-
 
 /*End Landing Page CSS*/
 
@@ -950,14 +867,14 @@ span {
   text-align: center;
   display: block;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 20px;
+  font-size: 35px;
   padding: 10px 20px;
   margin: 20px 40px;
 }
 
 
 .langIcons {
-  color: #706d6d;
+  color: #464444;
   margin: 0;
   padding: 20px 40px;
   letter-spacing: 50px;
@@ -965,9 +882,6 @@ span {
   display: inline-block;
 }
 
-.langIcons #html-logo:hover {
-  cursor: pointer;
-}
 
 .aboBtn {
   margin: 40px;
@@ -984,6 +898,7 @@ span {
   text-align: center;
   padding: 0;
   margin: 0;
+  font-size: 20px;
 }
 
 .aboutBtn:hover {
@@ -1030,7 +945,7 @@ span {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1047,7 +962,7 @@ span {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1064,7 +979,7 @@ span {
   border: none;
   border-radius: 10%;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1108,7 +1023,7 @@ span {
 .goExt h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -1192,7 +1107,7 @@ span {
 .onStore h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1277,7 +1192,7 @@ span {
 .chatApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1362,7 +1277,7 @@ span {
 .pyApp h2 {
   color: #312e2e;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding: 0;
   margin: 1px;
   text-align: center;
@@ -1470,7 +1385,7 @@ span {
   text-shadow: 1px 1px 2px #0f0f0f;
   margin: auto;
   padding: 0;
-  width: 80%;
+  width: 90%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -1522,7 +1437,13 @@ span {
   color: white;
   text-transform: uppercase;
   font-family: "Lexend Peta", sans-serif;
+  
 }
+
+#header-mo {
+  font-size: 30px;
+}
+
 
 .extMedia {
   padding: 0;
@@ -1541,9 +1462,6 @@ span {
   border: 2px #312e2e solid;
   border-radius: 10px;
 }
-
-
-
 
 
  #extImg:hover {
@@ -1578,7 +1496,6 @@ span {
 -webkit-filter: blur(1px);filter: blur(1px);
 
 }
-
 
 
  #chatVid:hover {
@@ -1621,16 +1538,19 @@ span {
   padding: 0;
   background-color: #fcc31b;
   color: white;
+  font-size: 30px;
 }
 
 .modal-footer h4 {
-  font-size: 10px;
+  font-family: "Lexend Peta", sans-serif;
+  font-size: 20px;
   display: block;
 }
 
 #tools {
   display: block;
-  font-size: 10px;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .projectsBtn {
@@ -1644,6 +1564,8 @@ span {
   text-align: center;
   padding: 0;
   margin: 0;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 .projectsBtn:hover {
@@ -1665,6 +1587,7 @@ span {
   background-size: cover;
   position: relative;
   background: linear-gradient(450deg, #fcc31b 80%, #ee923c 50%);
+  text-align: center;
 }
 
 #connectHead {
@@ -1678,96 +1601,13 @@ span {
   padding: 10px 10px;
 }
 
-.button_4 {
-  color: #615c5c;
-  background-color: transparent;
-  border: none;
-  padding: 15px;
-  margin: 2px 20px;
-  cursor: pointer;
-  display: block;
-}
 
-.button_5 {
-  color: #615c5c;
-  background-color: transparent;
-  border: none;
-  padding: 15px;
-  margin: 2px 20px;
-  cursor: pointer;
-  display: block;
-}
-
-
-.button_6 {
-  color: #615c5c;
-  background-color: transparent;
-  border: none;
-  padding: 15px;
-  margin: 2px 20px;
-  cursor: pointer;
-  display: block;
-}
-
-.button_7 {
-  color: #615c5c;
-  background-color: transparent;
-  border: none;
-  padding: 15px;
-  margin: 2px 20px;
-  cursor: pointer;
-  display: block;
-  
-}
-
-.button_4 h3 {
-  font-size: 8px;
-  font-family: "Lexend Peta", sans-serif;
-  text-transform: uppercase;
-}
-
-.button_5 h3 {
-  font-size: 8px;
-  font-family: "Lexend Peta", sans-serif;
-  text-transform: uppercase;
-}
-
-.button_6 h3 {
-  font-size: 8px;
-  font-family: "Lexend Peta", sans-serif;
-  text-transform: uppercase;
-}
-
-.button_7 h3 {
-  font-size: 8px;
-  font-family: "Lexend Peta", sans-serif;
-  text-transform: uppercase;
-}
-
-.button_4:hover {
-  border-radius: 10%;
-  
-}
-
-.button_5:hover {
-  border-radius: 10%;
- 
-}
-
-.button_6:hover {
-  border-radius: 10%;
- 
-}
-
-.button_7:hover {
-  border-radius: 10%;
-  
-}
 
 
 .conBtn {
   text-align: center;
   margin: 0;
+  margin-top: 100px;
 }
 
 .connectBtn {
@@ -1781,6 +1621,68 @@ span {
   text-align: center;
   padding: 0;
   margin: 0;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.touch-btn-class {
+  display: inline-block;
+}
+
+.touch-btn {
+	background: linear-gradient(to right, #fcc31b, #e78a0f);
+	--width: 190px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: calc(var(--height) / 3.5);
+	font-family: "Lexend Peta", sans-serif;
+	letter-spacing: 0.4em;
+	border: 1px solid #fab506;
+	border-radius: 4em;
+	transform: perspective(300px) rotateY(-30deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 1s;
+	position: relative;
+  overflow: hidden;
+  margin: 80px;
+  margin-top: 250px;
+  text-transform: uppercase;
+}
+
+.touch-btn a {
+  outline: none;
+  color: #333030;
+}
+
+.touch-btn:hover {
+	transform: perspective(300px) rotateY(30deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.touch-btn::before {
+	content: '';
+  position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+  transition: 1s;
+}
+
+.touch-btn:hover::before {
+  left: 100%;
+}
+
+
+
+#btn1 {
+  display: inline-block;
 }
 
 .connectBtn:hover {
