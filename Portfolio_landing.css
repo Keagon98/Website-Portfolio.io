@@ -26,6 +26,8 @@ a {
   color: #464444;
 }
 
+
+
 /*Scrollbar (Custom)*/
 
 /* width */
@@ -49,6 +51,8 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #bdb9b9;
 }
+
+
 
 @media only screen and (max-width: 400px) {
 
@@ -339,7 +343,7 @@ a {
   }
 
   .aboutBtn i:hover {
-    color: #854509;
+    color: #11901389;
     cursor: pointer;
     
   }
@@ -539,7 +543,7 @@ a {
   }
 
   .proBtn i:hover {
-    color: #854509;
+    color: #11901389;
     cursor: pointer;
     
   }
@@ -575,6 +579,8 @@ a {
     text-shadow: none;
     font-size: 20px;
     margin: 0;
+    margin-left: 125px;
+    margin-right: 125px;
     padding: 10px 10px;
   }
 
@@ -662,9 +668,10 @@ a {
   }
 
   .connectBtn i:hover {
-    color: #854509;
+   color: #11901389;
   cursor: pointer;
-  }
+}
+
 }
 
 /*Landing Page CSS*/
@@ -860,6 +867,8 @@ span {
   font-size: 30px;
   margin: 0;
   padding: 10px 10px;
+  background: #fcc41b4a;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .mySelf {
@@ -903,12 +912,10 @@ span {
 }
 
 .aboutBtn:hover {
-  color: #854509;
+  color: #11901389;
   cursor: pointer;
-  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
 
-@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 /*End About Page CSS*/
 
@@ -934,7 +941,11 @@ span {
   font-size: 30px;
   margin: 0;
   padding: 10px 10px;
+  background: #fcc41b4a;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+
 
 .proButton a {
   display: inline;
@@ -1029,6 +1040,7 @@ span {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 50px;
 }
 
 .goExt h2:hover {
@@ -1567,12 +1579,10 @@ span {
 }
 
 .projectsBtn:hover {
-  color: #854509;
+  color: #11901389;
   cursor: pointer;
-  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
 
-@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 /*End Projects Page CSS*/
 
@@ -1596,7 +1606,11 @@ span {
   text-transform: uppercase;
   font-size: 30px;
   margin: 0;
+  margin-left: 600px;
+  margin-right: 600px;
   padding: 10px 10px;
+  background: #fcc41b00;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 
@@ -1625,6 +1639,8 @@ span {
 
 .touch-btn-class {
   display: inline-block;
+  margin-top: 100px;
+
 }
 
 .touch-btn {
@@ -1647,7 +1663,7 @@ span {
 	position: relative;
   overflow: hidden;
   margin: 80px;
-  margin-top: 250px;
+  margin-top: 150px;
   text-transform: uppercase;
 }
 
@@ -1684,12 +1700,10 @@ span {
 }
 
 .connectBtn:hover {
-  color: #854509;
+  color: #11901389;
   cursor: pointer;
-  -webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both
 }
 
-@-webkit-keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,40);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}@keyframes shadow-drop-2-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-transform:translateZ(50px);transform:translateZ(50px);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,40)}}
 
 
 /*End Contact CSS*/
