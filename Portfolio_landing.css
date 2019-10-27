@@ -57,8 +57,8 @@ a {
 @media only screen and (max-width: 400px) {
 
    .middle .mainhead h1  {
-    color: #ddd9d9;
-    font-family: 'Architects Daughter', cursive;
+    color: #787575a0;
+  font-family: "Lexend Peta", sans-serif;
     font-size: 35px;
     text-shadow: 1px 1px 10px #0f0f0f;
     padding-top: 0;
