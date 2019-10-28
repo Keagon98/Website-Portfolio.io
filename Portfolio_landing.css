@@ -296,10 +296,10 @@ a {
     text-align: center;
     display: inline-block;
     font-family: "Lexend Peta", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
-    margin-left: -200px;
+    margin-left: -150px;
   }
 
   .langIcons i {
@@ -307,7 +307,7 @@ a {
     margin: 0;
     padding: 1px;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 15px;
     display: inline-block;
     margin-top: 50px;
   }
