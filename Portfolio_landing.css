@@ -299,7 +299,7 @@ a {
     font-size: 15px;
     padding: 0;
     margin: 0;
-    margin-left: -200px;
+    margin-left: -150px;
   }
 
   .langIcons i {
@@ -892,7 +892,7 @@ span {
   font-family: "Lexend Peta", sans-serif;
   font-size: 25px;
   padding: 10px 20px;
-  margin: 20px 350px;
+  margin: 20px 320px;
 
 }
 
@@ -1626,8 +1626,8 @@ span {
   text-transform: uppercase;
   font-size: 30px;
   margin: 0;
-  margin-left: 625px;
-  margin-right: 625px;
+  margin-left: 600px;
+  margin-right: 600px;
   padding: 10px 10px;
   background: #fcc41b00;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
