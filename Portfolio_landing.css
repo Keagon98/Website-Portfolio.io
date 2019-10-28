@@ -191,7 +191,7 @@ a {
     font-size: 50px;
     text-shadow: 4px 4px 10px #0f0f0f;
     padding-top: 0px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-right: 25px;
     display: inline-block;
     text-transform: uppercase;
@@ -299,6 +299,7 @@ a {
     font-size: 15px;
     padding: 0;
     margin: 0;
+    margin-left: -200px;
   }
 
   .langIcons i {
@@ -356,22 +357,22 @@ a {
 
   .projects .goExt h2 {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 40px;
   }
 
   .projects .onStore h2 {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .projects .chatApp h2 {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .projects .pyApp h2 {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   /* The Modal (background) */
@@ -507,11 +508,24 @@ a {
     display: inline-block;
   }
 
-  .modal-body #modal-body-p {
+  #modal-body-p {
     padding: 0;
-    margin: 0;
-    display: inline-block;
+    margin: 0 100px 0 100px;
+    font-family: "Lexend Peta", sans-serif;
+    display: block;
     font-size: 10px;
+    color: #fefefe;
+    text-shadow: none;
+  }
+
+ .modal-body li{
+    padding: 0;
+    margin: 0 -100px 0 -100px;
+    font-family: "Lexend Peta", sans-serif;
+    display: block;
+    font-size: 10px;
+    color: #fefefe;
+    text-shadow: none;
   }
 
   .modal-footer {
@@ -579,8 +593,8 @@ a {
     text-shadow: none;
     font-size: 20px;
     margin: 0;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 175px;
+    margin-right: 175px;
     padding: 10px 10px;
   }
 
@@ -876,9 +890,10 @@ span {
   text-align: center;
   display: block;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px 20px;
-  margin: 20px 40px;
+  margin: 20px 350px;
+
 }
 
 
@@ -1032,14 +1047,14 @@ span {
 }
 
 .goExt h2 {
-  color: #312e2e;
+  color: #4f4a4a;
   font-family: "Lexend Peta", sans-serif;
   font-size: 20px;
   padding: 0;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .goExt h2:hover {
@@ -1117,7 +1132,7 @@ span {
 }
 
 .onStore h2 {
-  color: #312e2e;
+  color: #4f4a4a;
   font-family: "Lexend Peta", sans-serif;
   font-size: 20px;
   padding: 0;
@@ -1202,7 +1217,7 @@ span {
 
 
 .chatApp h2 {
-  color: #312e2e;
+  color: #4f4a4a;
   font-family: "Lexend Peta", sans-serif;
   font-size: 20px;
   padding: 0;
@@ -1287,7 +1302,7 @@ span {
 }
 
 .pyApp h2 {
-  color: #312e2e;
+  color: #4f4a4a;
   font-family: "Lexend Peta", sans-serif;
   font-size: 20px;
   padding: 0;
@@ -1455,9 +1470,10 @@ span {
 
 
 .extMedia {
-  padding: 0;
+  padding: 20px;
   background: #fcc31b;
   margin: 0;
+
 
 }
 
@@ -1527,17 +1543,21 @@ span {
 
 .modal-body p{
   padding: 0;
-  margin: 0;
+  margin: 0 350px;
   font-family: "Lexend Peta", sans-serif;
   display: block;
   font-size: 15px;
   color: #fefefe;
+  text-shadow: none;
 }
 
 .modal-body ul {
   list-style: circle;
   font-family: "Lexend Peta", sans-serif;
   color: #fefefe;
+  margin: 0 200px;
+  text-shadow: none;
+  font-size: 15px;
   
 }
 
@@ -1560,6 +1580,7 @@ span {
   display: block;
   font-size: 15px;
   margin-left: 20px;
+  padding: 10px;
 }
 
 .projectsBtn {
@@ -1605,8 +1626,8 @@ span {
   text-transform: uppercase;
   font-size: 30px;
   margin: 0;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 708px;
+  margin-right: 708px;
   padding: 10px 10px;
   background: #fcc41b00;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -1662,7 +1683,7 @@ span {
 	position: relative;
   overflow: hidden;
   margin: 80px;
-  margin-top: 150px;
+  margin-top: 250px;
   text-transform: uppercase;
 }
 
