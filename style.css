@@ -142,7 +142,7 @@ html .sr #landing {
       color: #3b59c5;
   }
 
-  .cert {
+  .cert img {
       display: none;
       border-radius: 1em;
       width: 50%;
@@ -156,7 +156,7 @@ html .sr #landing {
     transform: scale(1); 
   }
 
-  .cert:hover {
+  .cert img:hover {
     z-index: 3;
     -webkit-transition: all 300ms ease-in;
     -webkit-transform: scale(1.2);
@@ -405,7 +405,7 @@ footer  i:hover {
         line-height: 2.5rem;
     }
 
-    .cert {
+    .cert img {
         display: flex;
     }
 
