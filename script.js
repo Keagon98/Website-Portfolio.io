@@ -1,3 +1,36 @@
+$(document).ready(function () {
+    $('.submit').click(function (event) {
+    console.log('Clicked button')
+
+    var name = $('.name').val()
+    var email = $('.email').val()
+    var message = $('.message').val()
+    var statusElm = $('.status')
+    statusElm.empty()
+
+    if(name.length >= 4) {
+        statusElm.append('<div style="color:#fff; background:#14d611; border-radius: .2rem; margin: .5rem; padding: .6rem;">Name is valid<i class="fas fa-check fa-1x"></i></div>')
+    } else {
+        event.preventDefault()
+        statusElm.append('<div style="color:#fff; background:#eb422f; border-radius: .2rem; margin: .5rem; padding: .6rem;">Name should be more than 4 characters<i class="fas fa-times fa-1x"></i></div>')
+    }
+
+    if(email.length > 5 && email.includes('@') && email.includes('.')) {
+        statusElm.append('<div style="color:#fff; background:#14d611; border-radius: .2rem; margin: .5rem; padding: .6rem;">Email is valid<i class="fas fa-check fa-1x"></i></div>')
+    } else {
+        event.preventDefault()
+        statusElm.append('<div style="color:#fff; background:#eb422f; border-radius: .2rem; margin: .5rem; padding: .6rem;">Email is not valid<i class="fas fa-times fa-1x"></i></div>')
+    }
+
+    if(message.length >= 10) {
+        statusElm.append('<div style="color:#fff; background:#14d611; border-radius: .2rem; margin: .5rem; padding: .6rem;">Message is valid<i class="fas fa-check fa-1x"></i></div>')
+    } else {
+        event.preventDefault()
+        statusElm.append('<div style="color:#fff; background:#eb422f; border-radius: .2rem; margin: .5rem; padding: .6rem;">Message is not valid<i class="fas fa-times fa-1x"></i></div>')
+    }
+})
+})
+
 window.sr = ScrollReveal();
 sr.reveal('#landing-text', {
     duration: 2500,
